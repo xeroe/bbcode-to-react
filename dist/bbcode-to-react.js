@@ -1572,7 +1572,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: "toReact",
 	    value: function toReact() {
-	      var size = this.params.size;
+	      var size = this.params.size / 100;
 	
 	      if (isNaN(size)) {
 	        return this.getComponents();

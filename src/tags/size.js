@@ -17,7 +17,7 @@ export default class SizeTag extends Tag {
   }
 
   toReact() {
-    const size = this.params.size;
+    const size = this.params.size / 100;
 
     if (isNaN(size)) {
       return this.getComponents();
